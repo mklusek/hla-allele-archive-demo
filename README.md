@@ -1,7 +1,6 @@
 # (DEMO) HLA Allele Archive
-## Intro
-
-This project provides a basic structure for an **HLA Allele Archive**, including essential components to support further development. It is designed to serve as a foundation for implementing allele data management features.
+## Intended use
+This project offers a starting point for building a structured, database-driven application focused on allele data management. It is **intentionally minimal**, meaning certain key components may be missing or incomplete by design.  
 
 ## Technologies
 - *Spring Boot*
