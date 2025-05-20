@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="2" author="mklusek">
+        <insert tableName="alleles">
+            <column name="accessionNumber" value="HLA00001"/>
+            <column name="name" value="A*01:01:01:01"/>
+        </insert>
+        <insert tableName="alleles">
+            <column name="accessionNumber" value="HLA00002"/>
+            <column name="name" value="A*01:02:01:01"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
